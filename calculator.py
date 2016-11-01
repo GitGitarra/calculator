@@ -8,8 +8,9 @@ operators = ["+", "-", "*", "/"]    #we are doing a list of operators we can use
 while running:
 
     try:
-        operand1 = int(input("Enter first number (or letter if you are already '
-                             'giving up and wish to exit):"))    #if it won't be a number program will exit
+        operand1 = int(input("Enter first number (or letter if you are already" 
+                             "giving up and wish to exit):"))    
+                             #if it won't be a number program will exit
     except ValueError:
         print("Goodby and see you next time!")
         exit()

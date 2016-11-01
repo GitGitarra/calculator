@@ -1,7 +1,5 @@
 running = True
 
-print("Hello! I'm a simple, smart calculator and would love to do some maths for you :)")
-print("Let's start!")
 
 operators = ["+", "-", "*", "/"]    #we are doing a list of operators we can use
 
